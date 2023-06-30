@@ -3,8 +3,8 @@ import "./Post.css";
 
 function Post() {
   return (
-    <div className="container">
-      <div className="post">
+    <div className="posts">
+      <div className="container">
         <h1>Single post</h1>
       </div>
     </div>
