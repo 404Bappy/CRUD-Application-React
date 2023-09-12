@@ -10,7 +10,9 @@ function Posts() {
       const { data } = await axios.get(config.apiUrl);
       setPosts(data);
     };
+    fatchPosts();
   }, []);
+  console.log(posts);
   return (
     <div className="posts">
       <div className="container">
